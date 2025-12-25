@@ -9,8 +9,8 @@ contract Task_04 {
    function setBalance(address _addr, uint256 _balance) external {
        balances[_addr] = _balance; // Установка баланса для указанного адреса
    }
-
-    function getBalance(address _addr) public view returns (uint256) {
+   
+   function getBalance(address _addr) public view returns (uint256) {
        return balances[_addr];
    }
 }
